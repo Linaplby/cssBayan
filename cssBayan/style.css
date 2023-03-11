@@ -1,9 +1,12 @@
+.body {
+  background-color: rgb(222, 221, 219);
+}
 section {
   display: block;
 }
 .accordion {
-  background-color: #e8ede3;
-  border: 2px solid #539127;
+  background-color: #686a66;
+  border: 2px solid #2e2e2c;
   width: 600px;
   padding: 10px;
   margin: 0 auto;
@@ -48,4 +51,12 @@ section {
 }
 .accordion :target h1 + div {
   height: auto;
+}
+.fotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.foto {
 }
